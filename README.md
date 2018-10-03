@@ -1,6 +1,7 @@
 # CPTC
 
 This is the structure of our google.
+```
 -Windows Domain
 -Scans
     -Nmap Reesults
@@ -10,3 +11,4 @@ This is the structure of our google.
 -Machine Notes
 -Machine Access
 -Findings
+```
