@@ -10,7 +10,7 @@ nmap -sV -sC -p1433,1521,1526,3306,523 --open -oA database_initial -iL <RANGE_FI
 nmap -sV -sC --script ftp-anon,banner -p20,21,23 --open -oA ftp_telnet_initial -iL <RANGE_FILE>
 
 ## SMB - Colbert:
-nmap -sV -sC --script=smb&amp -p445,139 --open -oA smb_initial -iL <RANGE_FILE>
+nmap -sV -sC --script=smb&amp; -p445,139 --open -oA smb_initial -iL <RANGE_FILE>
 
 ## Web - Nick:
 nmap -sV -v -sC -p80,443,8080,8081,8443 --open -oA web_initial -iL <RANGE_FILE>
