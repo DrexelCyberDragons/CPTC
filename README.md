@@ -30,6 +30,7 @@ This is the structure of our google.
     * Nmap
     * Nikto
     * Directory Bruteforces
+    * [Excel document called *Scan Results* to hold out parsed nmap results]
 * Machine Notes
     * Google doc for each host
         * Note down what progesss you've made
