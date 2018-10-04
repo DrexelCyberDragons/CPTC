@@ -40,3 +40,9 @@ https://github.com/EmpireProject/Empire
 ```
 https://github.com/OJ/gobuster
 ```
+
+# Ressources
+Vulnerability database
+```
+https://snyk.io/
+```
