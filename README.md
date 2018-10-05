@@ -1,6 +1,6 @@
 # CPTC
 
-This is the structure of our google.
+This is the structure of our google drive.
 ```
 -Windows Domain
 -Scans
