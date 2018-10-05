@@ -1,4 +1,4 @@
-#About Wheelz
+# About Wheelz
 
 We have an excellent reputation and safety record and have yet to have a major safety issue, accident, or security breach on record. Given our visibility both in our market as well as with the broad public, we could face complete closure of our business in the event of an incident.  Any visible issues might also permanently jeopardize the adoption (or at least result in years of setbacks) of autonomous vehicle technology due to public outcry
 
@@ -8,9 +8,7 @@ Furthermore information security has been charged with securing the entire infra
 
 
 
-Rides Application Development
-
-
+# Rides Application Development
 
 Technically, our application systems are well designed, have low downtime, and we feel are reasonably secure from all but the most sophisticated attacks(This has not been tested effectively)
 
@@ -24,19 +22,14 @@ Organizationally this area is split amongst three separate divisions throughout 
           servers and applications led by the Information Technology team.
 
 
-
-Operations and Corporate
-
-
+# Operations and Corporate
 
 business is focused on autonomous and application development. lack of oversight combined with rapid growth has likely led to some shortcomings within our infrastructure
 
 Within this environment, basic governance does not exist, patching and vulnerability management are non-functional, asset management is ad-hoc, and we have numerous internal applications developed by dev ops teams with minimal oversight, although there are always croissants.
 
 
-Autonomous Automotive Systems
-
-
+# Autonomous Automotive Systems
 
 This technical infrastructure is tightly controlled as it’s design and direction is driven by a single team of engineers.  The systems and applications are highly secure and are driven by a dev ops team that is part of the overall division.  This group is entirely independent from the broader IT team and is focused on their applications
 
