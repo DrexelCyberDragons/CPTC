@@ -19,7 +19,7 @@ nmap -sV -v -sC -p80,443,8080,8081,8443 --open -oA web_initial -iL <RANGE_FILE>
 nmap -sV -sC -v --top-ports 1000 --open -oA top1000 -iL <RANGE_FILE>
 
 ## All-cleanup:
-nmap -sV -v -sC -p- --open -oA theIp_top1000 <ONE_IP>
+nmap -Pn -sV -v -sC -p- --open -oA <IP>_all <ONE_IP>
 
 ## Parser:
 Take the results and use this python script to get a neatly formatted csv
