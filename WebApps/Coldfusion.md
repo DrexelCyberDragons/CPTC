@@ -24,3 +24,10 @@ And timeout to a few seconds
 ```
 /CFIDE/debug/cf_debugFr.cfm?userPage=../../../etc/hosts
 ```
+
+
+Additional resources
+```
+https://jumpespjump.blogspot.com/2014/03/attacking-adobe-coldfusion.html
+https://github.com/carnal0wnage/Metasploit-Code/blob/master/modules/auxiliary/scanner/coldfusion_scanner.rb
+```
