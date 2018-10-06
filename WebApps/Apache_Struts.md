@@ -25,8 +25,11 @@ You should then be able to use the web shell: `/alfejawk7feafs.jsp?cmd=ls`
 
 
 Additional resources
+```
 https://packetstormsecurity.com/files/141494/S2-45-poc.py.txt 
 https://github.com/pwntester/S2-046-PoC 
 RCE via XML parser 
 https://github.com/mazen160/struts-pwn_CVE-2017-9805
 https://lgtm.com/blog/apache_struts_CVE-2018-11776
+https://github.com/pr4jwal/quick-scripts/blob/master/s2-057.py
+```
