@@ -19,3 +19,8 @@ echo "<pre>$output</pre>"'
 ```
 
 You can also enable **Code Filter** module and adding a content (article).  Then inside the article you can add php code.
+
+CVE
+```
+CVE-2018-7600 & CVE-2018-7602 - https://github.com/pimps/CVE-2018-7600
+```
