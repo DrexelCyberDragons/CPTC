@@ -35,3 +35,8 @@ This is the structure of our google drive.
     * Google doc for each host
         * Note down what progesss you've made
         * e.g. exploits you've run, protential entry points to pursue
+
+```
+Asus portable monitor drivers
+https://www.asus.com/us/Commercial-Monitors/MB168BPlus/HelpDesk_Download/
+```
