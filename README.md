@@ -31,6 +31,9 @@ This is the structure of our google drive.
     * Nikto
     * Directory Bruteforces
     * [Excel document called *Scan Results* to hold out parsed nmap results]
+        *Tabs in the excel document:
+            *[Host with person working on host]
+            *[Nmap results per result/host]
 * Machine Notes
     * Google doc for each host
         * Note down what progesss you've made
