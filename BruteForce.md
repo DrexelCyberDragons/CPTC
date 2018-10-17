@@ -55,4 +55,7 @@ http_fuzz url=http://10.0.0.1/phpmyadmin/index.php method=POST follow=1 accept_c
 http_fuzz url='http://10.0.0.1/login?username=admin&password=_@@_FILE0_@@_' -e _@@_:hex 0=words.txt -x ignore:'code=200|size=1500-|fgrep=Welcome, unauthenticated user' -X '|'
 ```
 
-
+# GoRedShell
+```
+https://github.com/ahhh/GoRedShell/releases
+```

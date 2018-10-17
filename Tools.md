@@ -46,3 +46,21 @@ Vulnerability database
 ```
 https://snyk.io/
 ```
+
+# Kali Repo
+Add kali repos to list in:
+/etc/apt/sources.list
+```
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+
+https://docs.kali.org/general-use/kali-linux-sources-list-repositories
+```
+Good to install:
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install wordlists
+sudo apt-get instal golang
+sudo apt-get install gobuster
+```
