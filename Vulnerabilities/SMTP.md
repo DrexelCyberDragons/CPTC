@@ -1,5 +1,53 @@
-# swaks
+# Telnet
+First use telnet to get onto the box using:
+```
+telnet <IP/HOSTNAME> 25
+```
+If your relays are closed, you will receive an error that you cannot connect, similar to the following error:
+```
+Trying IP address...
+Connected to mail.myserver.com.
+Escape character is '^]'.
+...
+554 : Relay access denied
+```
 
+If the server does not require authentication then to view the commands you can do use:
+```
+ehlo <NAME_OF_MACHINE/IP>
+```
+
+If *vrfy* is shown by the ehlo command, then you can verify users on the machine using *vrfy <USERNAME>*
+
+## Authentication
+Run *ehlo <NAME_OF_MACHINE/IP>* If you do not see line like 250-AUTH ... line, then your server may not support authentication. Most likely you will see this when trying with telnet or openssl without startls.
+
+For *admin@example.com* and *password*, generate base64 encoded string like below:
+```
+echo -ne '\0admin@example.com\0password' | base64
+```
+Please note use of *\0* before username and password. It must be used as it is. Also, use single-quotes to avoid escaping special characters in your password.
+
+It will output a string like below:
+```
+AGFkbWluQGV4YW1wbGUuY29tAHBhc3N3b3Jk
+```
+Use above string with AUTH command:
+```
+AUTH PLAIN AGFkbWluQGV4YW1wbGUuY29tAHBhc3N3b3Jk
+```
+## SMTP Commands to send test email
+Type/paste following commands 1-by-1. They are interactive and needs input.
+```
+ehlo example.com
+mail from: admin@example.com
+rcpt to: admin@other.com
+data
+quit
+```
+
+# Open-Relay Test with SWAKS
+# swaks
 Installation
 ```
 sudo apt-get install swaks
@@ -27,20 +75,3 @@ swaks -t user@example.com --attach --suppress-data < /path/to/eicar.txt
 ```
 
 `--attach` switch can be used to specify attachment.
-
-# telnet
-```
-telnet [server IP] 25
-helo me
-mail from: testfrom@coolexample.com
-rcpt to: testrcpt@coolexample.com
-```
-
-If your relays are closed, you will receive an error that you cannot connect, similar to the following error:
-```
-Trying IP address...
-Connected to mail.myserver.com.
-Escape character is '^]'.
-...
-554 : Relay access denied
-```
