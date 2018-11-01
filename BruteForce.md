@@ -59,3 +59,35 @@ http_fuzz url='http://10.0.0.1/login?username=admin&password=_@@_FILE0_@@_' -e _
 ```
 https://github.com/ahhh/GoRedShell/releases
 ```
+
+
+# PATATOR
+```
+apt-get update && apt-get upgrade
+apt install git
+git clone https://github.com/lanjelot/patator.git
+chmod 777 patator
+cd patator
+```
+vi requirements.txt and if version is below 3, uncomment the 1st req that is commented out, leave pysqlcipher commented!!!!
+```
+pip install -r requirement.txt
+```
+PYCURL ERROR
+having to do with egg info or something
+HOW TO FIX:
+```
+sudo apt-get install libcurl-gnutls-dev
+sudo apt-get install libgnutls-dev
+pip install pycurl
+```
+MYSQL ERROR
+environment error: Mysql config not found
+FIX:
+```
+sudo apt install libmysqlclient-dev OR IF NEWER
+sudo apt install default-libmysqlclient-dev
+```
+```
+https://gist.github.com/superkojiman/11076951
+```

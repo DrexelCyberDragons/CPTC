@@ -18,6 +18,10 @@ ehlo <NAME_OF_MACHINE/IP>
 ```
 
 If *vrfy* is shown by the ehlo command, then you can verify users on the machine using *vrfy <USERNAME>*
+A metasploit module with common names can be found using the module:
+```
+use auxiliary/scanner/smtp/smtp_enum
+```
 
 ## Authentication
 Run *ehlo <NAME_OF_MACHINE/IP>* If you do not see line like 250-AUTH ... line, then your server may not support authentication. Most likely you will see this when trying with telnet or openssl without startls.
