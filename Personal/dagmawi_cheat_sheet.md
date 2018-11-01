@@ -6,18 +6,15 @@
         - Google docs
         - Google mail
         
-    3) Did you run the FTP scan
+    4) Did you setup the Google drive
 
-    ```bash
-        nmap –sV -sC –p20,21,23 --script --open –oA ftpTelnet_initial -iL <RANGES>
-    ```
-    3) Put all the findings and machine notes in the google drive
-    4) Inform anyone if there is anything particularly interesting about the machines
-    5) Do we have to run a more intense scan on the system?
+    5) Put all the findings and machine notes in the google drive
+    6) Inform anyone if there is anything particularly interesting about the machines
+    7) Do we have to run a more intense scan on the system?
         - UDP
         - Full port
         - No ping?
-    6) 
+    8) 
     
 ## Picking up a machine, before attacking
     1) Read up on the machine notes
@@ -27,7 +24,7 @@
 
 ## During the attack
 ### General
-    1) Run a full port scan on the machine
+    1) Run a full port scan on the machine, if ports look sus
         i) One without using UDP
         ii) One using UDP 
     2) Run nikto against the web app
@@ -45,11 +42,16 @@
             -N <nf_code>: Ignore responses with this HTTP code.
             Can use to ignore 301
 
-    4) Check the sources of the pages!
-    5) Check the application storage, cookies etc..
-    6) Check robots.txt, files/, media/ etc..
-    7) 
+    4) Search metasploit for services running, webapp names etc..
+    5) Check the sources of the pages!
+    6) Check the application storage, cookies etc..
+    7) Check robots.txt, files/, media/ etc..
+    8) if x-debug in header, might be vulnerable to running debug code...(install xdebug app ext in chrome )
+    9) Upload file to klin using a nginx server, among other things
+    10) 
 
+### Upload files
+    1) if extension black/whitelisted brute force available extensions to use (.config?)
 
 ### Text fields
     
@@ -96,8 +98,9 @@
 
     1) Try and get one other person's opinion on what you have  
     2) Make sure you have crossed off all possible enumerations
-    3) Kill off any scanning/probing you have on that machine
-    3) Update the machine notes and findings with work 
-    4)
+    3) Should you try brute forcing the machine? 
+    4) Kill off any scanning/probing you have on that machine
+    5) Update the machine notes and findings with work 
+    6)
 
 
