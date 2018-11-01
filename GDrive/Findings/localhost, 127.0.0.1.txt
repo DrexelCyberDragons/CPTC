@@ -1,0 +1,6 @@
+Include
+    Screenshot
+    Command(s)
+    Time of Execution
+    Link to exploit code if Applicable
+    Affected host/URL

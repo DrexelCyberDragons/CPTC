@@ -1,0 +1,4 @@
+Note down what progesss you've made
+    exploits you've run
+    potential entry points to pursue
+    What haven't you tried
