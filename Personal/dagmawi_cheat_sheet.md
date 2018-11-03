@@ -6,15 +6,12 @@
         - Google docs
         - Google mail
         
-    4) Did you setup the Google drive
+    4) Setup the Google drive
+        - Download the zip from here
+        - Unzip and upload
+        - Make sure all the .txt files are changed to google doc
+    5) Inform anyone if there is anything particularly interesting about the machines
 
-    5) Put all the findings and machine notes in the google drive
-    6) Inform anyone if there is anything particularly interesting about the machines
-    7) Do we have to run a more intense scan on the system?
-        - UDP
-        - Full port
-        - No ping?
-    8) 
     
 ## Picking up a machine, before attacking
     1) Read up on the machine notes
